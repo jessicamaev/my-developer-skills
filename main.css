@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    
+    margin:auto;
+    padding-top: 60px;
+    padding-left: 30%;
+    padding-bottom: 20px;
+    width:100%;
+}
+
+
+h2 {
+    background-color: #93C47E;
+    color: white;
+    width: 416px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+li {
+    color: #FFA21E;
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+}
+
+#btn_delete {
+    background-color: #E06767;
+    border: none;
+    color: white;
+    /* text-align: center;
+    text-decoration: none;
+    display: inline-block; */
+    margin-right: 5px;
+}
+
+#btn_addList{
+    color:#93C47E;
+    border-color: #93C47E;
+    border-width: 5px;
+    border-style: solid;
+    width: 90px;
+    padding: 5px;
+    background-color: white;
+}
+
+
+#input_skillText {
+    border-style: solid;
+    padding: 5px;
+    border-color: #93C47E;
+    width: 300px;
+    border-width: 5px;
+}
+
+.delete_item {
+    display: none;
+}
+
